@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width ,intial-scale=1.0"> 
+    <title> Document </title>
+    <link href="csstut.css" rel="stylesheet">
+
+</head>
+<body>
+    <script>
+        var title=document.querySelector("h2");
+        title.innerHTML="ADDED BY JAVASCRIPT";
+        document.getElementById("head").innerHTML="New Headings"
+    </script>
+    <h1 id="head"> Headings 1</h1>
+    <h2> Headings 2</h2>
+    <h3>  Headings 3</h3>
+   <p class ="first"> Hello world </p>
+   <div>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum magnam vitae quasi adipisci recusandae unde ipsa harum nulla, 
+    sed itaque corrupti quae <b>vaibhav </b>fuga <small>vaibhav</small>obcaecati hic provident mollitia delectus officia vero.
+    x<sup>2</sup> H<sub>2</sub>O <strike> english</strike>
+    <a href="https://www.google.com/"> google </a>  
+</div>
+<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg">
+<table>
+    <tr>
+        <td> name</td>
+        <td> class</td>
+        <td>  roll no.</td>
+    </tr>
+    <tr>
+        <td>
+            vaibhav
+        </td>
+        <td> 12</td>
+        <td>
+            57
+        </td>
+    </tr>
+<div>
+    Session name
+    <ul>
+    <li> session 0</li>
+    <li> session 1</li>
+    <li> session 2</li>
+    </ul>
+</div>
+<form action ="">
+    <div class ="name">
+        <label for ="Name"> Name </label>
+        <input type="text" name="Name" id ="name">
+    </div>
+    <div class="email">
+        <label for="Email"> Email</label>
+        <input type="email" name="email" id ="">
+    </div>
+
+    <div> Sports you like </div>
+    <label for="cricket" >Cricket</label>
+    <input type="checkbox" name="cricket" id="">
+    <label for="football" >FootBall</label>
+    <input type="checkbox" name="football" id="">
+    <label for="basketball" >BasketBall</label>
+    <input type="checkbox" name="basketball" id="">
+    <br>
+    <button id="btn" onclick="change(this)"> Sumbit </button>
+    <script>
+        function change(obj){
+            obj.style.backgroundColor="rgb(255 255 128)";
+        }
+    </script>
+
+</form>
+</table>
+</body>
+</html>
